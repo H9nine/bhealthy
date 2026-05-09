@@ -1,0 +1,48 @@
+{
+  "name": "BHealthy - Nutrition Coach",
+  "short_name": "BHealthy",
+  "description": "Votre coach nutrition personnalisé - Calories, protéines, recettes, scanner",
+  "start_url": "/bhealthy/",
+  "scope": "/bhealthy/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a1a12",
+  "theme_color": "#00C896",
+  "lang": "fr",
+  "categories": ["health", "fitness", "food"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "apple-touch-icon"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Journal du jour",
+      "short_name": "Journal",
+      "url": "/bhealthy/#log",
+      "description": "Ajouter un aliment"
+    },
+    {
+      "name": "Scanner",
+      "short_name": "Scanner",
+      "url": "/bhealthy/#scanner",
+      "description": "Scanner un code-barre"
+    }
+  ]
+}
